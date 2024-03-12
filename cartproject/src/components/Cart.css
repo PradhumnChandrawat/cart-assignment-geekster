@@ -1,0 +1,31 @@
+.cart-container {
+  width: 90%;
+  max-height: 90vh;
+  overflow: auto;
+  border: 2px solid #ddd;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: white;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.cart-clear {
+  margin-top: 1rem;
+}
+
+.cartclear {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.cartclear:hover {
+  background-color: #0056b3;
+}

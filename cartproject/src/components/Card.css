@@ -1,0 +1,77 @@
+.cart-item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightcart-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img-div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mob-img {
+  font-size: 4rem;
+}
+.details-div {
+  width: 50%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.details-div h4,
+.details-div span,
+.details-div .remove-btn {
+  margin: 5px 0;
+  width: 100%;
+}
+
+.leftcart-div {
+  width: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #bd2130;
+}
+
+.increase-btn,
+.decrease-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  cursor: pointer;
+}
+
+.increase-btn:hover,
+.decrease-btn:hover {
+  background-color: #218838;
+}
